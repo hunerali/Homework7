@@ -16,10 +16,13 @@ public class Dog extends Pet implements FoulAble {
     }
     @Override
     public void respond() {
+        System.out.println(this.getNickName()+" responded ");
 
     }
 
     public void foul() {
+        System.out.println(this.getNickName()+" fouled ");
+
 
     }
 }

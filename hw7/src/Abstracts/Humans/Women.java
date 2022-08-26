@@ -5,14 +5,16 @@ import Abstracts.Human;
 
 
 public final class Women extends Human {
-    public void makeup(){
 
-    }
     public Women(String name, String surname, int year, int iq, String[][] schedule, Family family) {
        super(name,surname,year,iq,schedule,family);
     }
 
     public Women() {
+    }
+    public void makeUp(){
+        System.out.println(this.getName()+" do makeUp ");
+
     }
 
     public Women(String name, String surname, int year) {
